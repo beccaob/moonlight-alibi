@@ -4,13 +4,23 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    
+}
+
 /* logo */
 
 #logo {
-    max-width: 30%;
-    max-height: 30%;
-    display: inline-block;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 90px;
+}
 
+/* center logo image */
+#logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* nav menu */
@@ -20,9 +30,8 @@ nav {
     /* makes responsive on different sized screens */
     align-items: center;
     justify-content: space-evenly;
-    display: inline-block;
-    width: 70%;
-    float: right;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 nav ul li {

@@ -9,6 +9,10 @@ a {
     border-bottom: solid black 0.1rem;
 }
 
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 /* pseudo classes */
 
 a:hover {
@@ -28,6 +32,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -20px;
 }
 
 /* nav menu */
@@ -41,7 +46,34 @@ nav {
 
 nav ul li {
     display: inline-block;
-    padding: 6rem;
+    padding: 4rem 6rem 6rem 6rem;
     letter-spacing: 0.5em;
     font-size: 28px
+}
+
+/* main section */
+
+.video-div {
+    background-color: black;
+    border: solid;
+    border-radius: 5rem;
+    display: inline-block;
+    float: left;
+}
+
+#hero-video {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.about-us {
+    background-color: olive;
+    border: solid olive;
+    border-radius: 5rem;
+    display: inline-block;
+    max-width: 50%;
+    float: right;
+    height: 550px;
 }

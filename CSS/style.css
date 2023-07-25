@@ -1,5 +1,12 @@
 /* generic styling */
 
+body {
+    background-image: url(../images/project-images/hero-image.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -52,6 +59,7 @@ nav ul li {
 }
 
 /* main section */
+
 
 .video-div {
     background-color: black;

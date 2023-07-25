@@ -12,12 +12,30 @@ a {
     color: black;
 }
 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: olive;
+}
+
 .active {
     border-bottom: solid black 0.1rem;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-awesome-white {
+    color: white;
 }
 
 /* pseudo classes */
@@ -37,6 +55,8 @@ a:hover {
 /* center logo image */
 #logo-div {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: -20px;
@@ -44,10 +64,11 @@ a:hover {
 
 /* nav menu */
 nav {
-    text-align: center;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -61,27 +82,20 @@ nav ul li {
 /* main section */
 
 
-.video-div {
+/* footer */
+
+footer {
     background-color: black;
-    border: solid;
-    border-radius: 5rem;
-    display: inline-block;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
 }
 
-#hero-video {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-}
-
-
-.about-us {
-    background-color: olive;
-    border: solid olive;
-    border-radius: 5rem;
-    display: inline-block;
-    max-width: 50%;
-    float: right;
-    height: 550px;
+.contact,
+.location,
+.socials {
+    color: white;
 }

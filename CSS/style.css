@@ -83,7 +83,7 @@ nav ul li {
     font-size: 21px
 }
 
-/* main section */
+/* hero image */
 
 #hero-outer {
     height: 600px;
@@ -101,6 +101,7 @@ nav ul li {
     height: 600px;
     width: 100%;
     background: url("../images/project-images/footer-background.svg") no-repeat center center;
+    border-radius: 2rem;
 }
 
 #cover-text p {
@@ -131,7 +132,40 @@ h2 {
     right: 150px;
 
     position: absolute;
+
+    border-radius: 2rem;
 }
+
+/* main content */
+
+#info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-us,
+.why-us,
+.services {
+    color: white;
+    width: 30%;
+    height: 20%;
+    background-color: black;
+    border-radius: 3rem;
+    padding: 20px;
+    text-align: center;
+}
+
+#info h3 {
+    font-size: 35px;
+}
+
 
 .button-div {
     display: flex;

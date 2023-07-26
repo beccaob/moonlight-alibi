@@ -27,7 +27,7 @@ h3 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .font-awesome-white {
@@ -44,11 +44,15 @@ footer a:hover {
     color: olive;
 }
 
+.button a:hover {
+    color: olive;
+}
+
 /* logo */
 
 #logo {
-    max-width: 620px;
-    max-height: 620px;
+    max-width: 480px;
+    max-height: 480px;
     padding-right: 60px;
 }
 
@@ -74,12 +78,78 @@ nav {
 
 nav ul li {
     display: inline-block;
-    padding: 4rem 6rem 6rem 6rem;
+    padding: 4rem 6rem 0rem 6rem;
     letter-spacing: 0.5em;
-    font-size: 28px
+    font-size: 21px
 }
 
 /* main section */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h1 {
+    color: white;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/project-images/footer-background.svg") no-repeat center center;
+}
+
+#cover-text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#cover-text h1,
+h2 {
+    font-size: 38px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#cover-text {
+    width: 600px;
+    height: 500px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(71, 107, 7, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    border-radius: 2rem;
+    padding: 20px;
+}
+
+.button a {
+    color: white;
+}
 
 
 /* footer */

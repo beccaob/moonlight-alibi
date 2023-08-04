@@ -34,14 +34,18 @@ p {
     color: white;
 }
 
+.font-awesome-white a:hover {
+    color: olive;
+}
+
 /* pseudo classes */
+
+a:hover {
+    color: olive;
+}
 
 li a:hover {
     color: olive;
-    background-color: black;
-    border-radius: 2rem;
-    padding: 13px;
-    font-size: 25px;
 }
 
 footer a:hover {
@@ -197,6 +201,45 @@ h2 {
 
 .button a {
     color: white;
+}
+
+#review-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+#reviews h3 {
+    font-size: 35px;
+}
+
+/* display review divs side by side */
+
+#reviews {
+    display: flex;
+    width: 100%;
+}
+
+.review-text {
+    flex: 1;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.review-text p {
+    background-color: rgba(71, 107, 7, 0.4);
+    padding: 30px;
+    font-size: 20px;
+}
+
+.review-picture {
+    flex: 1;
+    padding-left: 20%;
+    padding-top: -7px;
+    background-image: url(../images/project-images/about-left.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 

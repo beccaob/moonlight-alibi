@@ -2,28 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Rebecca O'Brien">
-    <meta name="description" content="Moonlight Alibi Wedding Band Bookings">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rebecca O'Brien" />
+    <meta name="description" content="Moonlight Alibi Wedding Band Bookings" />
     <title>Moonlight Alibi Wedding Band</title>
     <!-- link to external stylesheet, font awesome & google fonts -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css" />
     <script src="https://kit.fontawesome.com/4b78e1e5db.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@700&family=Roboto+Flex&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <!-- links required to display favicon images in browser tabs -->
-    <link rel="android-chrome-icon" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
-    <link rel="android-chrome-icon" href="images/favicon/android-chrome-512x512.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="icon" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-
+    <link rel="android-chrome-icon" sizes="192x192" href="images/favicon/android-chrome-192x192.png" />
+    <link rel="android-chrome-icon" href="images/favicon/android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="icon" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link rel="icon" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
 </head>
 
 <body>
@@ -31,7 +30,7 @@
         <!-- logo image as clickable link to home page from any page on site -->
         <div id="logo-div">
             <a href="index.html">
-                <img src="images/project-images/logo-1.svg" alt="Moonlight Alibi" id="logo">
+                <img src="images/project-images/logo-1.svg" alt="Moonlight Alibi" id="logo" />
             </a>
         </div>
         <!-- main menu -->
@@ -48,46 +47,89 @@
                         <a href="bookings.html" class="active">Bookings</a>
                     </li>
                     <li>
-                        <a href="gallery.html">Gallery</a>
+                        <a href="gallery.html">Upcoming Shows</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <div class="info">
-            <h1>Moonlight Alibi Wedding Band</h1>
-        </div>
         <div>
+            <h1 id="book-band">Book The Band</h1>
+            <h2>Fill out the form below and we'll handle the rest!</h2>
+        </div>
+        <div class="booking-form">
+            <!-- sends data to bands email address -->
+            <form action="contact.html">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" /><br />
 
+                <label for="email">Email Address</label><br />
+                <input type="email" id="email" name="email" /><br />
+
+                <label for="number">Phone Number:</label><br />
+                <input type="tel" id="number" name="number" /><br />
+
+                <label for="date">Date Of Event:</label><br />
+                <input type="date" id="date" name="date" /><br />
+
+                <!-- allows user to check more than one option-->
+                <h3>Services Required:</h3>
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="Ceremony" />
+                <label for="checkbox1">Ceremony</label>
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="Drinks Reception" />
+                <label for="checkbox2">Drinks Reception</label>
+                <input type="checkbox" id="checkbox3" name="checkbox3" value="After Party" />
+                <label for="checkbox3">After Party</label>
+                <input type="checkbox" id="checkbox4" name="checkbox4" value="Day Two Celebrations" />
+                <label for="checkbox4">Day Two Celebrations</label>
+
+                <!-- link back to services on another tab so user does not lose form data  -->
+                <p>
+                    Not sure? Check out what we offer
+                    <a href="setlist.html" target="_blank" rel="noopener">here!</a>
+                </p>
+
+                <!-- submit form -->
+                <input type="submit" id="submit" name="submit" />
+
+                <!-- reset form -->
+                <input type="reset" id="reset" name="reset" />
+            </form>
         </div>
     </main>
     <footer>
         <div class="contact">
             <h3>Contact</h3>
             <!-- clickable links that will open telephone or email for user -->
-            <p><i class="fa-solid fa-phone font-awesome-white"></i><a href="tel:0861227652"
-                    aria-label="Click here to call us! (Opens phone book)"> 086 122 7652</a></p>
-            <p><i class="fa-solid fa-envelope font-awesome-white"></i><a href="mailto:moonlightalibi@gmail.com"
-                    aria-label="Click here to email us! (Opens default mail app)"> Moonlightalibi@gmail.com</a></p>
+            <p>
+                <i class="fa-solid fa-phone font-awesome-white"></i><a href="tel:0861227652"
+                    aria-label="Click here to call us! (Opens phone book)">
+                    086 122 7652</a>
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope font-awesome-white"></i><a href="mailto:moonlightalibi@gmail.com"
+                    aria-label="Click here to email us! (Opens default mail app)">
+                    Moonlightalibi@gmail.com</a>
+            </p>
         </div>
         <div class="socials">
             <h3>Social Media</h3>
             <ul>
                 <li>
                     <a href="https://www.facebook.com/MoonlightAlibi" target="_blank" rel="noopener"
-                        aria-label="Check out our Facebook page! (Opens in a new tab)"> <i
-                            class="fa-brands fa-facebook font-awesome-white"></i></a>
+                        aria-label="Check out our Facebook page! (Opens in a new tab)">
+                        <i class="fa-brands fa-facebook font-awesome-white"></i></a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/@moonlightalibi" target="_blank" rel="noopener"
-                        aria-label="Check out our Youtube page! (Opens in a new tab)"> <i
-                            class="fa-brands fa-youtube font-awesome-white"></i></a>
+                        aria-label="Check out our Youtube page! (Opens in a new tab)">
+                        <i class="fa-brands fa-youtube font-awesome-white"></i></a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/moonlight_alibi/" target="_blank" rel="noopener"
-                        aria-label="Check out our Instagram page! (Opens in a new tab)"> <i
-                            class="fa-brands fa-instagram font-awesome-white"></i></a>
+                        aria-label="Check out our Instagram page! (Opens in a new tab)">
+                        <i class="fa-brands fa-instagram font-awesome-white"></i></a>
                 </li>
             </ul>
         </div>
@@ -96,7 +138,7 @@
             <p>Tralee, Co.Kerry</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39062.64179219226!2d-9.740154466245782!3d52.27216535281422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484535641a5c62e9%3A0x6c71e0639730367f!2sTralee%2C%20Co.%20Kerry!5e0!3m2!1sen!2sie!4v1690322814424!5m2!1sen!2sie"
-                width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                width="200" height="100" style="border: 0" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>

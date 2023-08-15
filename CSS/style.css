@@ -364,6 +364,7 @@ fieldset {
     font-size: 22px;
 
     border-radius: 1rem;
+    padding: 10px;
 }
 
 .booking-form a:hover {
@@ -371,7 +372,17 @@ fieldset {
     font-style: italic;
 }
 
-input[type=submit] {
+.form-choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: none;
+}
+
+#submit,
+#reset {
     font-size: 25px;
     font-family: 'Bebas Neue', sans-serif;
 
@@ -380,6 +391,11 @@ input[type=submit] {
 
     background-color: olive;
     color: black;
+}
+
+#submit:hover,
+#reset:hover {
+    text-decoration: underline;
 }
 
 /* display review divs side by side */

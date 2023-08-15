@@ -59,30 +59,33 @@
             <h2>Fill out the form below and we'll handle the rest!</h2>
         </div>
         <div class="booking-form">
-            <!-- sends data to bands email address -->
+            <!-- sends user to contact.html when form is submitted -->
             <form action="contact.html">
-                <label for="name">Name:</label><br />
-                <input type="text" id="name" name="name" /><br />
+                <label for="name" class="form-label">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Full Name" required><br>
 
-                <label for="email">Email Address</label><br />
-                <input type="email" id="email" name="email" /><br />
+                <label for="email" class="form-label">Email Address</label><br>
+                <input type="email" id="email" name="email" placeholder="yourmail@gmail.com" required><br>
 
-                <label for="number">Phone Number:</label><br />
-                <input type="tel" id="number" name="number" /><br />
+                <label for="number" class="form-label">Phone Number</label><br>
+                <input type="tel" id="number" name="number" placeholder="021-4522135" required><br>
 
-                <label for="date">Date Of Event:</label><br />
-                <input type="date" id="date" name="date" /><br />
+                <label for="date" class="form-label">Date Of Event</label><br>
+                <input type="date" id="date" name="date" required><br>
 
                 <!-- allows user to check more than one option-->
-                <h3>Services Required:</h3>
-                <input type="checkbox" id="checkbox1" name="checkbox1" value="Ceremony" />
-                <label for="checkbox1">Ceremony</label>
-                <input type="checkbox" id="checkbox2" name="checkbox2" value="Drinks Reception" />
-                <label for="checkbox2">Drinks Reception</label>
-                <input type="checkbox" id="checkbox3" name="checkbox3" value="After Party" />
-                <label for="checkbox3">After Party</label>
-                <input type="checkbox" id="checkbox4" name="checkbox4" value="Day Two Celebrations" />
-                <label for="checkbox4">Day Two Celebrations</label>
+
+                <fieldset class="fieldset">
+                    <legend class="legend">What services do you require?</legend>
+                    <input type="checkbox" id="checkbox1" name="checkbox1" value="Ceremony"><br>
+                    <label for="checkbox1" class="form-label">Ceremony</label><br>
+                    <input type="checkbox" id="checkbox2" name="checkbox2" value="Drinks Reception"><br>
+                    <label for="checkbox2" class="form-label">Drinks Reception</label><br>
+                    <input type="checkbox" id="checkbox3" name="checkbox3" value="After Party"><br>
+                    <label for="checkbox3" class="form-label">After Party</label><br>
+                    <input type="checkbox" id="checkbox4" name="checkbox4" value="Day Two Celebrations"><br>
+                    <label for="checkbox4" class="form-label">Day Two Celebrations</label>
+                </fieldset>
 
                 <!-- link back to services on another tab so user does not lose form data  -->
                 <p>
@@ -91,10 +94,10 @@
                 </p>
 
                 <!-- submit form -->
-                <input type="submit" id="submit" name="submit" />
+                <input type="submit" id="submit" name="submit">
 
                 <!-- reset form -->
-                <input type="reset" id="reset" name="reset" />
+                <input type="reset" id="reset" name="reset">
             </form>
         </div>
         <h3 id="review-header">Don't Just Take Our Word For It!</h3>

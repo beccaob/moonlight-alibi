@@ -279,6 +279,7 @@ h2 {
 .reasons {
     background-color: rgba(71, 107, 7, 0.4);
     max-width: 25%;
+    border-radius: 2rem;
 }
 
 
@@ -290,6 +291,95 @@ h2 {
 
 #reviews h3 {
     font-size: 35px;
+}
+
+/*main content - bookings page */
+
+#book-band {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+#name,
+#email,
+#number,
+#date {
+    font-size: 1.5em;
+    border-radius: 2rem;
+    font-family: 'Oswald', sans-serif;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.form-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+input[type=checkbox] {
+    margin-left: 30px;
+    accent-color: olive;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 15px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.booking-form p {
+    background-color: olive;
+    color: white;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+
+    border-radius: 1rem;
+}
+
+.booking-form a:hover {
+    color: black;
+    font-style: italic;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+
+    border-radius: 1rem;
+    padding: 10px;
+
+    background-color: olive;
+    color: black;
 }
 
 /* display review divs side by side */

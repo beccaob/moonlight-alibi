@@ -312,10 +312,11 @@ h2 {
 }
 
 
-
 #review-header {
     text-align: center;
-    font-size: 40px;
+    font-size: 65px;
+    letter-spacing: 1rem;
+    text-align: center;
 }
 
 #reviews h3 {
@@ -454,7 +455,7 @@ fieldset {
     background-image: url(../images/project-images/about-left.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 40rem;
 
 }
 

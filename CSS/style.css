@@ -265,15 +265,44 @@ h2 {
 
 /* main content - about us page */
 
-#why-us h3 {
-    font-size: 45px;
-    text-align: center;
+.why-us {
+    background-color: rgba(71, 107, 7, 0.4);
+    border-radius: 2rem;
+
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-#why-us p {
-    font-size: 25px;
+.why-us h3 {
+    font-size: 65px;
+    letter-spacing: 1rem;
+    text-align: center;
+
+    padding-top: 10px;
+    margin-bottom: -15px;
+}
+
+.why-us p {
+    font-size: 22px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.about-us-hero {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 .reasons {

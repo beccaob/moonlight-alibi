@@ -99,7 +99,7 @@ nav ul li {
 /* hero image - concept borrowed from love running project */
 
 #hero-outer {
-    height: 600px;
+    max-height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -133,8 +133,8 @@ h2 {
 }
 
 #cover-text {
-    width: 600px;
-    height: 500px;
+    max-width: 600px;
+    min-height: 500px;
 
     padding-top: 20px;
     padding-left: 10px;
@@ -534,9 +534,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+
     padding: 2rem;
+
     color: white;
     text-align: center;
     line-height: 25px;
@@ -560,3 +562,22 @@ footer h3 {
 }
 
 /* media queries */
+
+@media screen and (max-width: 651px) {
+
+    footer {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 910px) {
+
+    /* change footer to column to fit screen sizes 910 & below */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

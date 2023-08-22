@@ -34,6 +34,7 @@ p {
     color: white;
 }
 
+/* changes icon colour when hovering over */
 .font-awesome-white a:hover {
     color: olive;
 }
@@ -65,10 +66,9 @@ footer a:hover {
 #logo {
     max-width: 480px;
     max-height: 480px;
-    padding-right: 60px;
 }
 
-/* center logo image */
+/* center logo image using flex for mobile first approach */
 #logo-div {
     display: flex;
     flex-direction: row;
@@ -83,19 +83,20 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
     padding-top: 20px;
 }
 
 nav ul li {
-    display: inline-block;
     letter-spacing: 0.5em;
-    font-size: 21px
+    font-size: 21px;
+    list-style-type: none;
+    /* no bullet points for list items */
 }
 
-/* hero image */
+/* hero image - concept borrowed from love running project */
 
 #hero-outer {
     height: 600px;
@@ -347,10 +348,11 @@ h2 {
 #number,
 #date {
     font-size: 1.5em;
-    border-radius: 2rem;
     font-family: 'Oswald', sans-serif;
-    padding: 2%;
     text-align: center;
+
+    border-radius: 2rem;
+    padding: 2%;
 }
 
 
@@ -363,6 +365,7 @@ input {
     margin-bottom: 15px;
 }
 
+/* targets all checkboxes - changing default color to green */
 input[type=checkbox] {
     margin-left: 30px;
     accent-color: olive;
@@ -412,6 +415,11 @@ fieldset {
     border: none;
 }
 
+.booking-header h2 {
+    background-color: rgba(71, 107, 7, 0.4);
+    border-radius: 1rem;
+}
+
 #submit,
 #reset {
     font-size: 25px;
@@ -429,7 +437,23 @@ fieldset {
     text-decoration: underline;
 }
 
-/* display review divs side by side */
+.form-received {
+    font-size: 2rem;
+    text-align: center;
+
+    padding: 2rem;
+}
+
+#return-home a {
+    color: olive;
+}
+
+#return-home a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* displays review divs side by side using flex */
 
 #reviews {
     display: flex;
@@ -457,6 +481,49 @@ fieldset {
     background-repeat: no-repeat;
     background-size: 40rem;
 
+}
+
+/*setlist main section */
+#setlist p {
+    font-size: 23px;
+    text-align: center;
+}
+
+#setlist h2 {
+    font-size: 65px;
+    letter-spacing: 1rem;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: rgba(71, 107, 7, 0.4);
+    border-radius: 2rem;
+}
+
+#setlist ul li {
+    list-style-type: none;
+}
+
+iframe {
+    margin-bottom: 10px;
+}
+
+.setlist-heading p {
+    font-size: 23px;
+    text-align: center;
+}
+
+.setlist-heading h1 {
+    font-size: 65px;
+    letter-spacing: 1rem;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: rgba(71, 107, 7, 0.4);
+    border-radius: 2rem;
 }
 
 
@@ -491,3 +558,5 @@ footer h3 {
     padding-right: 200px;
     padding-left: 200px;
 }
+
+/* media queries */

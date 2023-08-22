@@ -602,6 +602,13 @@ footer h3 {
         padding-bottom: 20px;
     }
 
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 

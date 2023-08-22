@@ -586,7 +586,7 @@ footer h3 {
     #logo {
         max-width: 280px;
         max-height: 280px;
-        padding-left: 35px;
+        padding-bottom: 15px;
     }
 
     .cover-text-headings {
@@ -596,6 +596,7 @@ footer h3 {
     nav ul {
         display: flex;
         flex-direction: column;
+        padding: 0px;
     }
 
     nav ul li {

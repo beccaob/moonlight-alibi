@@ -455,6 +455,36 @@ fieldset {
 
 
 /*setlist main section */
+
+#section-jump {
+    list-style-type: none;
+    font-size: 35px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-jump a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    max-width: 250px;
+    max-height: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 #setlist p {
     font-size: 23px;
     text-align: center;
@@ -462,7 +492,6 @@ fieldset {
 
 #setlist h2 {
     font-size: 65px;
-    letter-spacing: 1rem;
     text-align: center;
 
     padding-top: 10px;
@@ -476,10 +505,6 @@ fieldset {
     list-style-type: none;
 }
 
-iframe {
-    margin-bottom: 10px;
-}
-
 .setlist-heading p {
     font-size: 23px;
     text-align: center;
@@ -487,7 +512,6 @@ iframe {
 
 .setlist-heading h1 {
     font-size: 65px;
-    letter-spacing: 1rem;
     text-align: center;
 
     padding-top: 10px;
@@ -567,8 +591,8 @@ footer h3 {
         font-size: 15px;
     }
 
-    #hero-image {
-        background-image: none;
+    .iframes {
+        margin-right: 20px;
     }
 
 }

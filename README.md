@@ -1,39 +1,45 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Moonlight Alibi
 
-Welcome,
+Moonlight Alibi is a website for a Rock 'n' Roll wedding band. The website aims to entice the user to book the band for their wedding. View the live site here: <https://beccaob.github.io/moonlight-alibi>
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Website Mock-up
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![multi-device-mockup]()
 
-## Codeanywhere Reminders
+View all pages on the mock-up generator here <https://techsini.com/>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# Table of Contents
 
-`python3 -m http.server`
+* [**Features**](#features)
+* [**Design**](#design)
+* [**Technologies**](#technologies)
+* [**Testing**](#testing)
+* [**Deployment**](#deployment)
+* [**Credits**](#credits)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# **Features**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Site Wide
 
-`http_server`
+### Navigation
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Contains links to the home, about, setlist & booking pages. Will be reponsive across all devices.
+* This will enable users to easily navigate their way around the website on any device.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![nav](img here)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Footer
 
-To log into the Heroku toolbelt CLI:
+* Will contain contact information and link to both phone & email which will automatically open their default mail/phone application and pre-fill the address/number bar.
+* Will contain a band location so users will easily know where to locate Moonlight Alibi.
+* Will contain links to social media where the user can get more information on the band. All links will have aria labels to assist screen readers and each link will open in a new tab.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![footer](img here)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Favicon
 
----
+* Sitewide favicon will be enabled with Moonlight Alibi's logo.
 
-Happy coding!
+* This will show an image in the tabs header will allow the user to clearly indentify the site if they have multiple tabs open.
+
+![favicon-1](image here)

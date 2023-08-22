@@ -456,22 +456,6 @@ fieldset {
 
 /*setlist main section */
 
-#section-jump {
-    list-style-type: none;
-    font-size: 35px;
-    text-align: center;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.section-jump a:hover {
-    text-decoration: underline;
-}
-
 iframe {
     display: flex;
     flex-direction: row;
@@ -591,10 +575,6 @@ footer h3 {
         font-size: 15px;
     }
 
-    .iframes {
-        margin-right: 20px;
-    }
-
 }
 
 @media screen and (max-width: 651px) {
@@ -606,10 +586,20 @@ footer h3 {
     #logo {
         max-width: 280px;
         max-height: 280px;
+        padding-left: 35px;
     }
 
     .cover-text-headings {
         font-size: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding-bottom: 20px;
     }
 
 }

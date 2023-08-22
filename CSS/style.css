@@ -566,18 +566,23 @@ footer h3 {
 @media screen and (max-width: 651px) {
 
     footer {
-        width: 100vw;
-    }
-}
-
-@media screen and (max-width: 910px) {
-
-    /* change footer to column to fit screen sizes 910 & below */
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        max-width: 100vw;
     }
 
+    #logo {
+        max-width: 280px;
+        max-height: 280px;
 
-}
+    }
+
+    @media screen and (max-width: 910px) {
+
+        /* change footer to column to fit screen sizes 910 & below */
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+    }

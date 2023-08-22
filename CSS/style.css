@@ -563,6 +563,12 @@ footer h3 {
 
 /* media queries */
 
+@media and screen (max-width: 590px) {
+    #cover-text h1 {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 651px) {
 
     footer {
@@ -572,17 +578,30 @@ footer h3 {
     #logo {
         max-width: 280px;
         max-height: 280px;
-
     }
 
-    @media screen and (max-width: 910px) {
-
-        /* change footer to column to fit screen sizes 910 & below */
-        footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+}
 
 
+@media screen and (max-width: 910px) {
+
+    /* change footer to column to fit screen sizes 910 & below */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    #promise {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reasons {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+
+}

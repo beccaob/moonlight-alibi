@@ -293,19 +293,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-.about-us-hero {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    padding-left: 70px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-}
-
 .reasons {
     background-color: rgba(71, 107, 7, 0.4);
     max-width: 25%;
@@ -455,33 +442,17 @@ fieldset {
 
 /* displays review divs side by side using flex */
 
-#reviews {
-    display: flex;
-    width: 100%;
-}
-
 .review-text {
-    flex: 1;
-    padding-right: 10%;
-    padding-left: 5%;
+    text-align: center;
 }
 
 .review-text p {
     background-color: rgba(71, 107, 7, 0.4);
     padding: 30px;
     font-size: 20px;
+    border-radius: 2rem;
 }
 
-.review-picture {
-    flex: 1;
-    padding-left: 20%;
-    padding-top: -7px;
-    background-image: url(../images/project-images/about-left.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 40rem;
-
-}
 
 /*setlist main section */
 #setlist p {
@@ -575,11 +546,18 @@ footer h3 {
         font-size: 10px;
     }
 
+    .cover-text p {
+        font-size: x-small;
+    }
+
     footer {
         min-width: 100%;
         text-align: center;
         align-items: center;
-        padding: 0px;
+    }
+
+    .book-now h3 {
+        text-align: center;
     }
 
 }
@@ -593,10 +571,6 @@ footer h3 {
         background-image: none;
     }
 
-    #cover-text {
-        width: 100%;
-        max-height: 100%;
-    }
 }
 
 @media screen and (max-width: 651px) {

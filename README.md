@@ -4,9 +4,8 @@ Moonlight Alibi is a website for a Rock 'n' Roll wedding band. The website aims 
 
 ## Website Mock-up
 
-![multi-device-mockup](images/README-images/mockup.jpg)
+![multi-device-mockup](assets/images/README-images/mockup.jpg)
 
-View all pages on the mock-up generator here <https://techsini.com/multi-mockup/index.php>
 
 # Table of Contents
 
@@ -26,7 +25,7 @@ View all pages on the mock-up generator here <https://techsini.com/multi-mockup/
 * Contains links to the home, about, setlist & booking pages. Will be reponsive across all devices.
 * This will enable users to easily navigate their way around the website on any device.
 
-![nav](images/README-images/nav.jpg)
+![nav](assets/images/README-images/nav.jpg)
 
 ## Footer
 
@@ -34,12 +33,26 @@ View all pages on the mock-up generator here <https://techsini.com/multi-mockup/
 * Will contain a band location so users will easily know where to locate Moonlight Alibi.
 * Will contain links to social media where the user can get more information on the band. All links will have aria labels to assist screen readers and each link will open in a new tab.
 
-![footer](images/README-images/footer.jpg)
+![footer](assets/images/README-images/footer.jpg)
 
 ## Favicon
 
 * Sitewide favicon will be enabled with Moonlight Alibi's logo.
 
-* This will show an image in the tabs header will allow the user to clearly indentify the site if they have multiple tabs open.
+* This will show the logo image in the tabs header which will allow the user to clearly indentify the site if they have multiple tabs open.
 
-![favicon-1](images/favicon/favicon-16x16.png)
+![favicon-1](assets/images/project-images/logo.webp)
+
+## Landing Page
+### Landing Page Images
+
+* The landing page features a background image of a guitar and drum set. This makes the site feel cohesive and elimnates the stark white background. 
+* The Logo image is featured at the top of every page - this allows the user to know what site they are visiting.
+* The hero image is a group of wedding guests enjoying the music - this image is accompanied by a snippet of who Moonlight Alibi are. This informs the user of the websites purpose right away. This text also has a link to the setlist page where the user can learn more information about the music Moonlight Alibi perform. 
+
+![hero](assets/images/README-images/hero-image.png)
+
+### Promises Section
+
+* This section aims to inform the user of Moonlight Alibi's work ethic and 
+

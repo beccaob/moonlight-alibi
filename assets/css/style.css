@@ -547,6 +547,7 @@ footer h3 {
 
 @media screen and (max-width: 480px) {
 
+
     #logo {
         width: 180px;
         height: 180px;
@@ -612,6 +613,56 @@ footer h3 {
 
     .enquire {
         font-size: 1.25rem;
+    }
+
+    /* about us */
+
+    .why-us h3 {
+        font-size: 1.5rem;
+        letter-spacing: normal;
+        padding-bottom: 10px;
+    }
+
+    .why-us p {
+        font-size: 0.75rem;
+    }
+
+    #review-header {
+        font-size: 2rem;
+        letter-spacing: normal;
+    }
+
+    .review-text p {
+        font-size: 0.75rem;
+    }
+
+    /*setlist*/
+
+    .setlist-heading h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .setlist-heading h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .setlist-heading p {
+        font-size: 0.75rem;
+    }
+
+    #setlist h2 {
+        font-size: 1.5rem;
+    }
+
+    iframe {
+        width: 180px;
+        height: 180px;
+    }
+
+    .iframes {
+        align-content: center;
     }
 
     /* footer */

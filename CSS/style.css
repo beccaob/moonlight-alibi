@@ -582,6 +582,25 @@ footer h3 {
         font-size: 15px;
     }
 
+    .why-us h3 {
+        font-size: 23px;
+        padding-bottom: 10px;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    .why-us p {
+        font-size: 12px;
+    }
+
+    #review-header {
+        font-size: 25px;
+    }
+
+    .review-text p {
+        font-size: 12px;
+    }
+
 
 }
 

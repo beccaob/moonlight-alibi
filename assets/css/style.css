@@ -546,11 +546,17 @@ footer h3 {
 
 /* media queries */
 
+/* mobile phones */
 
-@media screen and (max-width: 486px) {
+
+@media screen and (max-width: 480px) {
 
     p {
         font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.438rem;
     }
 
     footer {

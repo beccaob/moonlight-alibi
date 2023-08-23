@@ -91,7 +91,7 @@ ul {
 
 nav ul li {
     letter-spacing: 0.5em;
-    font-size: 21px;
+    font-size: 1.313rem;
     list-style-type: none;
     /* no bullet points for list items */
 }
@@ -119,13 +119,13 @@ nav ul li {
 
 #cover-text p {
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
 }
 
 #cover-text h1,
 h2 {
-    font-size: 38px;
+    font-size: 2.375rem;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -172,12 +172,12 @@ h2 {
 }
 
 #info h3 {
-    font-size: 35px;
+    font-size: 2.188rem;
     color: olive;
 }
 
 #info p {
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 #info a {
@@ -199,7 +199,7 @@ h2 {
 .button {
     background-color: black;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.563rem;
     border-radius: 2rem;
     padding: 20px;
 }
@@ -211,7 +211,7 @@ h2 {
 /* promise section */
 
 .promise-heading {
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
     text-decoration: underline;
     padding-top: 30px;
@@ -228,12 +228,12 @@ h2 {
 
 #promise h3 {
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 #promise p {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.563rem;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -345,7 +345,7 @@ h2 {
 
 .form-label {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 input {
@@ -360,7 +360,7 @@ input[type=checkbox] {
 
 ::placeholder {
     text-align: center;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 fieldset {
@@ -371,7 +371,7 @@ fieldset {
     align-items: center;
 
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.563rem;
 
     padding: 25px;
     margin-top: 20px;
@@ -409,7 +409,7 @@ fieldset {
 
 #submit,
 #reset {
-    font-size: 25px;
+    font-size: 1.563;
     font-family: 'Bebas Neue', sans-serif;
 
     border-radius: 1rem;
@@ -449,7 +449,7 @@ fieldset {
 .review-text p {
     background-color: rgba(71, 107, 7, 0.4);
     padding: 30px;
-    font-size: 20px;
+    font-size: 1.25rem;
     border-radius: 2rem;
 }
 
@@ -552,10 +552,14 @@ footer h3 {
 @media screen and (max-width: 480px) {
 
     p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     h1 {
+        font-size: 1.563rem;
+    }
+
+    h2 {
         font-size: 1.438rem;
     }
 
@@ -565,69 +569,30 @@ footer h3 {
         align-items: center;
     }
 
+    /* styling for cover text */
 
     .cover-text-headings {
-        font-size: 15px;
+        font-size: 0.938rem;
         padding-right: 10px;
         padding-left: 10px;
     }
 
     #cover-text h1 {
-        font-size: 15px;
+        font-size: 0.938rem;
         padding-right: 10px;
         padding-left: 10px;
     }
 
     #cover-text p {
-        font-size: 10px;
+        font-size: 0.75rem;
         padding-right: 10px;
         padding-left: 10px;
     }
 
     .button {
-        font-size: 15px;
+        font-size: 0.938rem;
     }
 
-    .promise-heading {
-        font-size: 23px;
-    }
-
-    .reasons h3 {
-        font-size: 23px;
-    }
-
-    .reasons p {
-        font-size: 12px;
-    }
-
-    .why-us h3 {
-        font-size: 23px;
-        padding-bottom: 10px;
-        text-align: center;
-        letter-spacing: normal;
-    }
-
-    .why-us p {
-        font-size: 12px;
-    }
-
-    #review-header {
-        font-size: 25px;
-    }
-
-    .review-text p {
-        font-size: 12px;
-    }
-
-    .setlist-heading h1 {
-        font-size: 23px;
-        letter-spacing: normal;
-        text-align: center;
-    }
-
-    .setlist-heading p {
-        font-size: 12px;
-    }
 
 
 }
@@ -667,19 +632,19 @@ footer h3 {
     }
 
     .cover-text-headings {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     #covert-text h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     #cover-text p {
-        font-size: 15px;
+        font-size: 0.938rem;
     }
 
     .button {
-        font-size: 15px;
+        font-size: 0.938rem;
     }
 
 

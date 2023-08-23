@@ -241,8 +241,124 @@ Testing was targeted towards ensuring the following criteria was met:
 * All images have alt attributes or titles so screen readers can read the description to the user. 
 * HTML page language has been set.  
 
+## Lighthouse Testing 
 
+* Home Page 
 
+![homepage](assets/images/README-images/lighthouse-home.png)
+
+* About Us Page 
+
+![aboutus](assets/images/README-images/about-us-lighthouse.png)
+
+* Setlist Page 
+
+![setlist](assets/images/README-images/setlist-lighthouse.png)
+
+* Booking Page 
+
+![booking](assets/images/README-images/booking-lighthouse.png)
+
+## **Functional Testing**
+
+### Nav Links
+
+Testing was performed to ensure links on all pages navigated to the correct place as per design. This was done by clicking on the nav links on each page ( menu & footer )
+
+Expected Outcome:
+
+* All links navigate to correct page
+
+Actual Outcome:
+
+* Outcome as expected
+
+### Form Testing
+
+The booking form was tested to ensure it performed as expected when correct/incorrect data was inputted. The following tests were performed:
+
+#### **Correct Inputs**
+
+Steps to test:
+
+1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/booking.html>)
+2. Input the following data:
+    * First Name: Jane
+    * Email: j.doe@test.com
+    * Number: 0861227652
+3. Choose checkbox
+4. Click 'Submit'
+5. User should be redirected to contact.html confirmation page
+
+Expected:
+
+* Form submits with no errors and user is redirected to confirmation page mentioned above.
+
+Actual:
+
+* Website behaved as expected with no errors/warnings and user was redirected correctly.
+
+#### **Missing Name Input**
+
+Steps to test:
+
+Steps to test:
+
+1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/booking.html>)
+2. Input the following data:
+    * First Name: Jane
+    * Email: j.doe@test.com
+    * Number: 0861227652
+3. Choose checkbox
+4. Click 'Submit'
+5. User should be redirected to contact.html confirmation page
+
+Expected:
+
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above.
+
+Actual:
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+#### **Incorrect email format in Email input**
+
+1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/booking.html>)
+2. Input the following data:
+    * First Name: Jane
+    * Email: j.doe-test.com
+    * Number: 0861227652
+3. Choose checkbox
+4. Click 'Submit'
+5. User should be redirected to contact.html confirmation page
+
+Expected:
+
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above.
+
+Actual:
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+## **Footer Social Icons**
+
+Testing was performed on the social media icons to ensure each opened in a new tab.
+
+As expected, each icon opened in a new tab.
+
+## **Footer Contact Information**
+
+Testing was performed on the email in the 'Contact Us' section of the footer to ensure it opened the users default mail application.
+
+Steps to test:
+
+1. Navigate to {Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/index.html>)
+2. Click the email address in the footer ( moonlightalibi@gmail.com )
+
+Expected:
+Default mail application is opened and 'To' address bar is pre-filled.
+
+Actual: Behaviour was as expected.
 
 
 

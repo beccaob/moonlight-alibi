@@ -1,5 +1,9 @@
 /* generic styling */
 
+.info {
+    text-align: center;
+}
+
 body {
     background-image: url(../images/project-images/site-background.webp);
     background-position: center;

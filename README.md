@@ -198,6 +198,35 @@ Fonts used will be Oswald & Bebas Neue - these were chosen to keep in line with 
 
 * Images were created using Canva Pro from <https://www.canva.com/>
 
+# **Testing**
+
+## Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px upwards. Each page was tested on Chrome, Edge and Firefox.
+
+Steps to test:
+
+1. Open the browser and navigate to [Moonlight Alibi](https://beccaob.github.io/moonlight-alibi/index.html)
+2. Open the developer tools ( right click & inspect )
+3. Set to responsive & decrease width to 320px
+4. Set the zoom to 50%
+5. Click & drag window to max width
+
+Expected Outcome:
+
+* Responsive on all screen sizes, no pixelated/stretched images
+* No horizontal scroll bar
+* No element overflow
+
+Actual Outcome:
+
+The website behaved as expected across all tests. Although, the background image on mobile was quite streched. I did not have time to fix this issue but I am aware that it's there and aim to fix it in the near future.
+
+The site was also tested on the following devices and no issues were detected:
+
+* Apple IPhone 13
+* Asus 15.6" M509DA-EJ034T
+
 
 
 

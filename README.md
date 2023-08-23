@@ -4,9 +4,9 @@ Moonlight Alibi is a website for a Rock 'n' Roll wedding band. The website aims 
 
 ## Website Mock-up
 
-![multi-device-mockup]()
+![multi-device-mockup](images/README-images/mockup.jpg)
 
-View all pages on the mock-up generator here <https://techsini.com/>
+View all pages on the mock-up generator here <https://techsini.com/multi-mockup/index.php>
 
 # Table of Contents
 
@@ -26,7 +26,7 @@ View all pages on the mock-up generator here <https://techsini.com/>
 * Contains links to the home, about, setlist & booking pages. Will be reponsive across all devices.
 * This will enable users to easily navigate their way around the website on any device.
 
-![nav](img here)
+![nav](images/README-images/nav.jpg)
 
 ## Footer
 
@@ -34,7 +34,7 @@ View all pages on the mock-up generator here <https://techsini.com/>
 * Will contain a band location so users will easily know where to locate Moonlight Alibi.
 * Will contain links to social media where the user can get more information on the band. All links will have aria labels to assist screen readers and each link will open in a new tab.
 
-![footer](img here)
+![footer](images/README-images/footer.jpg)
 
 ## Favicon
 
@@ -42,4 +42,4 @@ View all pages on the mock-up generator here <https://techsini.com/>
 
 * This will show an image in the tabs header will allow the user to clearly indentify the site if they have multiple tabs open.
 
-![favicon-1](image here)
+![favicon-1](images/favicon/favicon-16x16.png)

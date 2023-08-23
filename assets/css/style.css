@@ -665,6 +665,19 @@ footer h3 {
         align-content: center;
     }
 
+    /* form */
+
+    #name,
+    #email,
+    #number,
+    #date {
+        font-size: 1.15rem;
+    }
+
+    #book-band {
+        font-size: 1.25rem;
+    }
+
     /* footer */
 
     footer {

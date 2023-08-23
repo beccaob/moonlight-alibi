@@ -130,3 +130,32 @@ Wants to: Book the band.
 End Goal: Contact the band
 
 Outcome: Marie can contact the band by filling out the booking form.
+
+# Design 
+
+## Site Wide
+
+### Colours
+
+The colours used will be Olive ( element background colour ) and black ( Primary heading & content colour ).
+Black & White hero & background images will be used to keep the design consistent, professional and classy.
+
+### Fonts
+
+Fonts used will be Oswald & Bebas Neue - these were chosen to keep in line with the logo font. They will be linked in the html file from Google Fonts.
+
+## Wireframes
+
+* I designed a wireframe to give myself a rough idea of what I wanted the site to look like.
+* I did this to save myself time by not designing as I go.
+* The wireframe was a rough guidline tt project inception so they do not match exactly.
+
+[wireframe](assets/images/README-images/wire-frame.png)
+
+
+
+
+
+
+
+

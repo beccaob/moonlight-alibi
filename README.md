@@ -85,12 +85,12 @@ Moonlight Alibi is a website for a Rock 'n' Roll wedding band. The website aims 
 * There is a link back to the setlist page if the user wishes to refresh their knowledge on the services offered - this will open in a new tab so the user does not lose any form data they have already entered.
 * There is a submit button to submit the form and a reset button to reset all data.
 
-[booking](assets/images/README-images/booking.png)
+![booking](assets/images/README-images/booking.png)
 
 * Upon completion, the user will be redirected to contact.html where they will be met with a Submission successful message. 
 * The purpose of this message is to inform the user that their submission has been successful. 
 
-[contact](assets/images/README-images/contact-page.png)
+![contact](assets/images/README-images/contact-page.png)
 
 ## Existing Features 
 
@@ -150,7 +150,53 @@ Fonts used will be Oswald & Bebas Neue - these were chosen to keep in line with 
 * I did this to save myself time by not designing as I go.
 * The wireframe was a rough guidline tt project inception so they do not match exactly.
 
-[wireframe](assets/images/README-images/wire-frame.png)
+![wireframe](assets/images/README-images/wire-frame.png)
+
+# **Technologies**
+
+## HTML
+
+* The websites structure was developed using HTML as the main language.
+
+## CSS
+
+* The website was styles using custom CSS in an external file.
+
+## Code Anywhere
+
+* The website was developed using Code Anywhere.
+
+## Github
+
+* TRL source code is hosted on Github & deployed using Git Pages.
+
+## Git
+
+* Used to commit and push code throughout the development process.
+
+## Font Awesome
+
+* Icons from <https://fontawesome.com/> were used in the promise section, social media and contact icons on the site.
+
+## Google Fonts
+
+* Fonts were linked to the HTML file from Google Fonts.
+
+## Favicon.io
+
+* Favicon files were created using <https://favicon.io>
+
+## Balsamiq
+
+* Wireframes were created using Balsamiq from <https://balsamiq.com/wireframes/desktop/>
+
+## NVDA
+
+* Manual accessibility text ran using NDVA. (<https://www.nvaccess.org/>)
+
+## Images
+
+* Images were created using Canva Pro from <https://www.canva.com/>
 
 
 

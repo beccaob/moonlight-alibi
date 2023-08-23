@@ -56,5 +56,5 @@ Moonlight Alibi is a website for a Rock 'n' Roll wedding band. The website aims 
 
 * This section aims to inform the user of Moonlight Alibi's work ethic in the hopes of getting them to enquire about a booking. There is an enquiry button below the promises section that links to the booking page to aid this. 
 
-![promises]
+![promises](assets/images/README-images/promise.png)
 

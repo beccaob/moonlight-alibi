@@ -549,7 +549,7 @@ footer h3 {
 /* mobile phones */
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 565px) {
 
 
     #logo {
@@ -786,6 +786,34 @@ footer h3 {
         align-items: center;
     }
 
+}
+
+@media and screen (max-width: 520px) {
+    #cover-text h1 {
+        font-size: 15px;
+    }
+
+    .cover-text-headings {
+        font-size: 0.938rem;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #cover-text h1 {
+        font-size: 0.938rem;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #cover-text p {
+        font-size: 0.75rem;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .button {
+        font-size: 0.938rem;
+    }
 }
 
 /* ipads and tablets */

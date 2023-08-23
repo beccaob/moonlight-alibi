@@ -717,9 +717,32 @@ footer h3 {
         text-align: center;
     }
 
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        padding-left: 0%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type=checkbox] {
+        margin-right: 25px;
+        padding-top: 25px;
+    }
+
 }
 
-/* spcial sizing - logo pressed together */
+/* spcial sizing - logo & footer pressed together */
 
 @media screen and (max-width: 690px) {
     nav ul li {
@@ -736,6 +759,33 @@ footer h3 {
 
         padding-left: 0%;
     }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        padding-left: 10px;
+        padding-right: 0%;
+    }
+
+    input[type=checkbox] {
+        margin-right: 25px;
+        padding-top: 25px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 /* ipads and tablets */

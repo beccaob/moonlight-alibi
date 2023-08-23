@@ -527,19 +527,15 @@ footer ul li {
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.563rem;
+    margin-left: -35px;
 }
 
-.socials ul li {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-}
 
 footer h3 {
-    font-size: 33px;
+    font-size: 2.063rem;
 }
 
 
@@ -551,6 +547,15 @@ footer h3 {
 
 @media screen and (max-width: 480px) {
 
+    #logo {
+        width: 180px;
+        height: 180px;
+    }
+
+    nav ul li {
+        font-size: 1.05rem;
+    }
+
     p {
         font-size: 0.75rem;
     }
@@ -561,12 +566,6 @@ footer h3 {
 
     h2 {
         font-size: 1.438rem;
-    }
-
-    footer {
-        min-width: 100%;
-        text-align: center;
-        align-items: center;
     }
 
     /* styling for cover text */
@@ -593,7 +592,51 @@ footer h3 {
         font-size: 0.938rem;
     }
 
+    /* make promise section smaller for mobile screens */
 
+    .promise-heading {
+        font-size: 1.25rem;
+    }
+
+    #promise h3 {
+        font-size: 1.25rem;
+    }
+
+    #promise p {
+        font-size: 0.938rem;
+    }
+
+    .book-now h3 {
+        font-size: 1.25rem;
+    }
+
+    .enquire {
+        font-size: 1.25rem;
+    }
+
+    /* footer */
+
+    footer {
+        min-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer h3 {
+        font-size: 1.25rem;
+    }
+
+    footer p~a {
+        font-size: 1.15rem;
+    }
+
+    footer i {
+        font-size: 1.15rem;
+    }
+
+    footer ul li {
+        text-align: center;
+    }
 
 }
 

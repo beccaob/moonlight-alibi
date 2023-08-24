@@ -788,7 +788,7 @@ footer h3 {
 
 }
 
-@media and screen (max-width: 520px) {
+@media screen and (max-width: 520px) {
     #cover-text h1 {
         font-size: 15px;
     }

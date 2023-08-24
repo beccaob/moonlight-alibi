@@ -148,7 +148,7 @@ Fonts used will be Oswald & Bebas Neue - these were chosen to keep in line with 
 
 * I designed a wireframe to give myself a rough idea of what I wanted the site to look like.
 * I did this to save myself time by not designing as I go.
-* The wireframe was a rough guidline tt project inception so they do not match exactly.
+* The wireframe was a rough guideline from project inception so they do not match exactly.
 
 ![wireframe](assets/images/README-images/wire-frame.png)
 
@@ -168,7 +168,7 @@ Fonts used will be Oswald & Bebas Neue - these were chosen to keep in line with 
 
 ## Github
 
-* TRL source code is hosted on Github & deployed using Git Pages.
+* Source code is hosted on Github & deployed using Git Pages.
 
 ## Git
 
@@ -281,7 +281,7 @@ The booking form was tested to ensure it performed as expected when correct/inco
 
 Steps to test:
 
-1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/booking.html>)
+1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/bookings.html>)
 2. Input the following data:
     * First Name: Jane
     * Email: j.doe@test.com
@@ -304,7 +304,7 @@ Steps to test:
 
 Steps to test:
 
-1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/booking.html>)
+1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/bookings.html>)
 2. Input the following data:
     * First Name: Jane
     * Email: j.doe@test.com
@@ -360,6 +360,109 @@ Default mail application is opened and 'To' address bar is pre-filled.
 
 Actual: Behaviour was as expected.
 
+# **Deployment**
+
+The website was created using Visual Studio Code editor and pushed to the github remote repository 'moonlight-alibi'
+The following git commands were used throughout development to push code to the remote repository:
+
+* git add .
+  * This command was used to add a change in the working directory to the staging area.
+
+* git commit -m "commit message"
+  * This command was used to commit changes to the local repo queue ready to be pushed to the remote repo.
+
+* git push
+  * This command was used to push all committed code to the remote repo on github.
+
+## Deployment to Github Pages
+
+The site was deployed to Github Pages. Steps used are as follows:
+
+1. In the repo, open the settings tab
+2. In left menu, click 'Pages'
+3. From the source section, select 'Branch:main' from the dropdown menu
+4. Click 'Save'
+5. A live link will be displayed in green banner when published successfully
+
+The live link to Moonlight Alibi can be found here: <https://beccaob.github.io/moonlight-alibi/>
+
+## Clone Repo Code Locally
+
+Navigate to the github repo you want to clone for local use
+
+1. Click the 'Code' drop down menu
+2. Click on 'HTTPS'
+3. Copy the repo link to the keyboard
+4. Open preferred integrated development environment (IDE)
+
+(Git must be installed for the final step)
+
+5. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned on your local machine.
+
+# **Credits**
+
+## Images - Canva
+
+* Home Background Image: 'Musical instruments in modern music studio' - DmiTry
+
+* Hero Image: 'Groom and wedding guests laughing during party' - FG Trade
+
+* Logo : Moonlight Alibi - Pa Lynch
+
+## Spotify
+
+* Used to embed tracks in Setlist Page.
+
+## Font Awesome
+
+* Icons from <https://fontawesome.com/> were used in the promise section, contact and social media icons on the site.
+
+## Google Fonts
+
+* Fonts were linked to the HTML file from Google Fonts.
+
+## Favicon.io
+
+* Favicon files were created using <https://favicon.io>
+
+## Balsamiq
+
+* Wireframes were created using Balsamiq from <https://balsamiq.com/wireframes/desktop/>
+
+## NVDA
+
+* Manual accessibility text ran using NDVA. (<https://www.nvaccess.org/>)
+
+## Flexbox Froggy
+
+* Used to re-familiarize myself with using flexbox.
+  * <https://flexboxfroggy.com/>
+
+## Unicorn Revealer
+
+* Chrome extension used to highlight overflow.
+  * Can be downloaded here: <https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB>
+
+## Multi Device Website Mock-up Generator
+
+* Used to test responsiveness on Apple devices. Screenshotted for readme.md file.
+  * Can be accessed here: <https://techsini.com/multi-mockup/>
+
+## Code Institute Sample README.md
+
+* Used as a template to create README.md for the wesbite.
+  * Can be accessed here: <https://github.com/Code-Institute-Solutions/readme-template>
+
+## Github Markdown Cheat Sheet
+
+* Used to assist in writing README.md
+  * Can be accessed here: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
+
+# Thank You
+
+Thanks to my fellow peers for reviewing my project and a very special thank you to my mentor Jack Wachira , for his invaluable advice and resources throughout the development of this project.
 
 
 

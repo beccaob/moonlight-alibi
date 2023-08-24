@@ -323,7 +323,7 @@ Actual:
 
 #### **Incorrect email format in Email input**
 
-1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/booking.html>)
+1. Navigate to {Booking Moonlight Alibi}(<https://beccaob.github.io/moonlight-alibi/bookings.html>)
 2. Input the following data:
     * First Name: Jane
     * Email: j.doe-test.com

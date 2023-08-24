@@ -369,14 +369,17 @@ Home:
 
 The only error i recieved is from the favicon icons. I believe this is out of the scope of this course but I plan on fixing it once I know more. 
 
-About: The same error was received on the about page. Again, I believe this is out of the scope of this course but I plan on fixing it once I know more. 
+About & Booking: The same error was received on the about page. Again, I believe this is out of the scope of this course but I plan on fixing it once I know more. 
 
 Setlist: 
 ![setlist](assets/images/README-images/setlist-html.png)
 
 The above errors were received on the setlist page. I believe this is out of the scope of this course but I plan on fixing it once I know more. The spoitfy tracks were embedded using spotifys embed feature. 
 
-Booking: 
+* CSS
+
+![css-val](assets/images/README-images/css-validate.png)
+
 
 # **Deployment**
 

@@ -362,7 +362,7 @@ Actual: Behaviour was as expected.
 
 # **Deployment**
 
-The website was created using Visual Studio Code editor and pushed to the github remote repository 'moonlight-alibi'
+The website was created using Code Anywhere editor and pushed to the github remote repository 'moonlight-alibi'
 The following git commands were used throughout development to push code to the remote repository:
 
 * git add .
